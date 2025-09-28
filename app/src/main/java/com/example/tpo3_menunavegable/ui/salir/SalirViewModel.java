@@ -1,16 +1,16 @@
-package com.example.tpo3_menunavegable.ui.home;
+package com.example.tpo3_menunavegable.ui.salir;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class SalirViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public SalirViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("¿Está seguro que desea salir?");
     }
 
     public LiveData<String> getText() {
